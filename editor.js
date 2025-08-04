@@ -121,7 +121,7 @@ function initUI() {
         renderTable();
     });
 
-    fetch('../Order sheet/products.json')
+    fetch('products.json')
         .then(res => res.json())
         .then(data => {
             products = data;
